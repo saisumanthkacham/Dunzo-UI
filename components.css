@@ -1,0 +1,44 @@
+.avatar div {
+    margin: 2rem 2rem 2rem 0;
+    font-size: medium;
+}
+
+p {
+    font-size: medium;
+}
+
+.img {
+    margin: 0.5rem;
+    width: 45px;
+    height: 45px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.mkDivImg {
+    display: inline-block;
+    margin: 0.5rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.img-sm {
+    width: 45px;
+    height: 45px;
+}
+
+.img-md {
+    width: 60px;
+    height: 60px;
+}
+
+.img-lg {
+    width: 80px;
+    height: 80px;
+}
