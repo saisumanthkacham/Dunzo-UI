@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+:root {
+    --primary-color: #00FFA4;
+    --secondary-color: #4AAFF7;
+    --white-color: #ffffff;
+    --black-color: #181a1b;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "nav nav" "lside main";
+    grid-template-columns: 18% 1fr;
+    grid-template-rows: 20% 1fr;
+}
+
+body nav {
+    grid-area: nav;
+    background-color: var(--black-color);
+}
+
+body lside {
+    grid-area: lside;
+    background-color: var(--primary-color);
+    padding: 2rem;
+}
+
+body main {
+    grid-area: main;
+}
+
+body nav .logo {
+    width: 100px;
+    height: 50px;
+    padding: 0.5rem;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 1rem, auto;
+}
+
+.nav-link {
+    margin: 1rem;
+    color: white;
+}
+
+.nav-ul-item {
+    margin: 1rem;
+    font-size: medium;
+    font-weight: 800;
+    color: var(--white-color);
+}
+
+.lside-ul {
+    list-style-type: none;
+}
+
+.lside-ul-items {
+    padding: 1rem;
+}
