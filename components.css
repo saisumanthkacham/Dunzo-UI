@@ -1,9 +1,19 @@
-.avatar div {
-    margin: 2rem 2rem 2rem 0;
+p {
     font-size: medium;
 }
 
-p {
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+/* avatar */
+
+.avatar div {
+    margin: 2rem 2rem 2rem 8rem;
     font-size: medium;
 }
 
@@ -11,13 +21,6 @@ p {
     margin: 0.5rem;
     width: 45px;
     height: 45px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 .mkDivImg {
@@ -41,4 +44,28 @@ p {
 .img-lg {
     width: 80px;
     height: 80px;
+}
+
+
+/* alert */
+
+.alert-item {
+    width: 40%;
+    height: 30%;
+    border: 0;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.alert div {
+    margin: 2rem 2rem 2rem 5rem;
+    font-size: medium;
+}
+
+
+/* badges */
+
+.badge div {
+    margin: 2rem 2rem 2rem 8rem;
+    font-size: medium;
 }

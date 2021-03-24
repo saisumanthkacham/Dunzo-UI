@@ -11,13 +11,36 @@
     --white-color: #ffffff;
     --black-color: #181a1b;
     --light-ash-color: #f7fdfa;
+    --red-color: #fd5f65;
+    --green-color: #45d371;
+    --yellow-color: #e7d03c;
+}
+
+.white-bg {
+    background-color: var(--white-color);
+}
+
+.red-bg {
+    background-color: var(--red-color);
+}
+
+.white-font {
+    color: var(--light-ash-color);
+}
+
+.green-bg {
+    background-color: var(--green-color);
+}
+
+.yellow-bg {
+    background-color: var(--yellow-color);
 }
 
 body {
     display: grid;
     grid-template-areas: "nav nav" "lside main";
-    grid-template-columns: 17% 1fr;
-    grid-template-rows: 10% 1fr;
+    grid-template-columns: 16% 1fr;
+    grid-template-rows: 5% 1fr;
     background-color: var(--light-ash-color);
 }
 
@@ -35,7 +58,6 @@ body lside {
 
 body main {
     grid-area: main;
-    background-color: var(--white-color);
 }
 
 body nav .logo {
@@ -74,6 +96,7 @@ body nav .logo {
 
 .lside-ul {
     list-style-type: none;
+    position: fixed;
 }
 
 .lside-ul-items {
@@ -84,4 +107,8 @@ body nav .logo {
     margin: 3rem;
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+h2 {
+    margin: 3rem 0 0 3rem;
 }
