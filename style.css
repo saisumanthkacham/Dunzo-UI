@@ -6,7 +6,7 @@
 }
 
 :root {
-    --primary-color: #00FFA4;
+    --primary-color: #fd5f65;
     --secondary-color: #4AAFF7;
     --white-color: #ffffff;
     --black-color: #181a1b;
@@ -49,6 +49,14 @@
 
 .blue-bg {
     background-color: var(--blue-color);
+}
+
+.primary-bg {
+    background-color: var(--primary-color);
+}
+
+.secondary-bg {
+    background-color: var(--secondary-color);
 }
 
 body {

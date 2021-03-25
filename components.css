@@ -120,3 +120,17 @@
             flex-direction: row;
             justify-content: flex-start;
         }
+        /* buttons */
+        
+        .btn {
+            width: 10%;
+            height: 30%;
+            border: 0;
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            text-align: center;
+        }
+        
+        .secondary-btn-border {
+            border: 1px solid var(--primary-color);
+        }
