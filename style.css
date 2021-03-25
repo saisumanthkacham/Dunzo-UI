@@ -14,6 +14,9 @@
     --red-color: #fd5f65;
     --green-color: #45d371;
     --yellow-color: #e7d03c;
+    --tomato-color: rgb(255, 0, 0);
+    --snap-yellow: #f7f400;
+    --blue-color: #4375f0;
 }
 
 .white-bg {
@@ -34,6 +37,18 @@
 
 .yellow-bg {
     background-color: var(--yellow-color);
+}
+
+.tomato-bg {
+    background-color: var(--tomato-color);
+}
+
+.snap-yellow-bg {
+    background-color: var(--snap-yellow);
+}
+
+.blue-bg {
+    background-color: var(--blue-color);
 }
 
 body {
