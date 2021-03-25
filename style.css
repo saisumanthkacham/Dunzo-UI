@@ -75,7 +75,7 @@ body {
     display: grid;
     grid-template-areas: "nav nav" "lside main";
     grid-template-columns: 16% 1fr;
-    grid-template-rows: 3% 1fr;
+    grid-template-rows: 2% 1fr;
     background-color: var(--light-ash-color);
 }
 
