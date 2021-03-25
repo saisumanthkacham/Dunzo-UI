@@ -13,7 +13,7 @@
 
 <body>
 
-    <nav class="nav">
+    <nav class="nav ">
         <div>
             <img src="images/dunzo logo.svg" class="logo">
         </div>
@@ -44,10 +44,10 @@
 
 
 
-    <main class="main">
+    <main class="main white-bg">
 
         <!-- avatar -->
-        <div class="avatar white-bg">
+        <div class="avatar ">
 
             <h2>⚡Avatar</h2><br>
 
@@ -61,23 +61,31 @@
 
             <div>
                 <h3>>> Icon Avatar</h3><br>
-                <div class="row ">
-                    <div class="icon yellow-bg "><i class="fab fa-snapchat-ghost fa-2x white-font"></i>
-                    </div>
-                    <div class="icon red-bg "><i class="fab fa-youtube fa-2x white-font"></i>
-                    </div>
-                    <div class="icon blue-bg "><i class="fab fa-facebook-f fa-2x white-font"></i>
-                    </div>
-                </div>
+                <item class="row ">
+                    <item class="icon yellow-bg "><i class="fab fa-snapchat-ghost fa-2x white-font"></i>
+                    </item>
+                    <item class="icon red-bg "><i class="fab fa-youtube fa-2x white-font"></i>
+                    </item>
+                    <item class="icon blue-bg "><i class="fab fa-facebook-f fa-2x white-font"></i>
+                    </item>
+                </item>
 
             </div>
 
 
             <div>
                 <h3>>> Letter Avatar</h3><br>
-                <img src="images/girl.svg " alt=" " class="img img-md ">
-                <img src="images/woman.svg " alt=" " class="img img-md ">
-                <img src="images/an.svg " alt=" " class="img img-md ">
+                <item class="row ">
+                    <item class="icon yellow-bg ">
+                        <h3 class="white-font">O</h3>
+                    </item>
+                    <item class="icon red-bg ">
+                        <h3 class="white-font">S</h3>
+                    </item>
+                    <item class="icon blue-bg ">
+                        <h3 class="white-font">M</h3>
+                    </item>
+                </item>
             </div>
 
 
@@ -141,7 +149,7 @@
 
 
         <!-- Badges -->
-        <div class="badge white-bg ">
+        <div class="badge  ">
 
             <h2>⚡Badge</h2><br>
 
@@ -184,6 +192,20 @@
                 </div>
 
             </div>
+
+            <!-- badge on Cards -->
+            <div class="row">
+                <h3> >> Badge On Cards </h3>
+                <div>
+                    <item class="yellow-bg cd-badge ">Trending⚡</item>
+                    <item class="red-bg cd-badge ">Worst Rated👎</item>
+                    <item class="green-bg cd-badge ">New Product✨</item>
+                </div>
+
+
+
+            </div>
+
             <br><br>
 
 
@@ -205,43 +227,43 @@
 
             <div>
                 <h3>>> Primary Button</h3>
-                <div class="row">
-                    <div class="btn primary-bg white-font ">
+                <item class="row">
+                    <item class="btn primary-bg white-font ">
                         Button
-                    </div>
+                    </item>
 
-                    <div class="btn secondary-btn-border  white-bg ">
+                    <item class="btn secondary-btn-border  white-bg ">
                         Secondary
-                    </div>
-                </div>
+                    </item>
+                </item>
             </div>
 
 
             <div>
                 <h3>>> medium Button</h3>
-                <div class="row">
-                    <div class="btn btn-md primary-bg white-font ">
+                <item class="row">
+                    <item class="btn btn-md primary-bg white-font ">
                         Button
-                    </div>
+                    </item>
 
-                    <div class="btn  btn-md secondary-btn-border  white-bg ">
+                    <item class="btn  btn-md secondary-btn-border  white-bg ">
                         Secondary
-                    </div>
-                </div>
+                    </item>
+                </item>
             </div>
 
 
             <div>
                 <h3>>> small Button</h3>
-                <div class="row">
-                    <div class="btn btn-sm primary-bg white-font ">
+                <item class="row">
+                    <item class="btn btn-sm primary-bg white-font ">
                         Button
-                    </div>
+                    </item>
 
-                    <div class="btn  btn-sm secondary-btn-border  white-bg ">
-                        Secondary
-                    </div>
-                </div>
+                    <item class="btn  btn-sm secondary-btn-border  white-bg ">
+                        2ndary
+                    </item>
+                </item>
             </div>
 
 
@@ -254,17 +276,21 @@
 
 
         <!-- Cards -->
-        <div class="card white-bg ">
+        <div class="card ">
 
             <h2>⚡Card</h2><br>
 
             <div>
                 <h3>>> Flipkart Card</h3>
                 <div class="cd">
+                    <item class="yellow-bg cd-badge cd-badge-pos">Trending</item>
+                    <i class="fas fa-heart fa-lg cd-icon grey-font"></i>
                     <img src="images/lappy.jpeg" alt="" class="cd-img">
-                    <h4>Asus ROG</h4>
-                    <div class="btn btn-sm green-bg">4.5⚡</div>
-                    <p>Rs.1500<span>2000</span> (25% Off)</p>
+
+                    <h4>LG All-in-One 126 cm (50 inch) Ultra HD (4K) LED Smart TV</h4>
+                    <item class="cd-rating green-bg center ">4.5<i class="fas fa-star fa-sm"></i></item>
+                    <p>₹15000<s class="grey-font"> ₹20000</s> <span class="green-font">(25% Off)</span> </p>
+                    <item class="btn orange-bg cd-btn-margin ">Buy Now</item>
                 </div>
 
             </div>

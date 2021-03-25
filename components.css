@@ -18,6 +18,13 @@
             padding: 0;
         }
         
+        .center {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        
         .margin-zero {
             margin: 0;
             padding: 0;
@@ -90,7 +97,7 @@
             height: 60px;
             border-radius: 50%;
             text-align: center;
-            margin: 0;
+            margin: 0.5rem;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -131,6 +138,7 @@
             width: 130px;
             height: 25px;
             border: 0;
+            margin: 1rem;
             padding: 0.5rem;
             border-radius: 0.5rem;
             text-align: center;
@@ -139,12 +147,13 @@
         .btn-sm {
             width: 65px;
             height: 20px;
-            margin: 0;
+            margin: 1rem;
         }
         
         .btn-md {
             width: 90px;
             height: 20px;
+            margin: 1rem;
         }
         
         .secondary-btn-border {
@@ -153,8 +162,8 @@
         /* card */
         
         .card div {
-            margin: 2rem 2rem 2rem 5rem;
             font-size: medium;
+            margin: 2rem 2rem 2rem 7rem;
         }
         
         .cd {
@@ -163,13 +172,47 @@
             background-color: var(--white-color);
             display: flex;
             flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            border-radius: 0.3rem;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.5rem;
+            text-align: center;
+            position: relative;
+            box-shadow: 1px 5px 5px #ccc;
         }
         
         .cd-img {
-            width: 200px;
+            width: 220px;
             height: 200px;
             margin: 20px;
+        }
+        
+        .cd-rating {
+            width: 45px;
+            height: 15px;
+            border: 0;
+            padding: 0.5rem;
+            margin: 1rem 2rem 1rem 2rem;
+            border-radius: 0.5rem;
+            text-align: center;
+            font-size: small;
+            font-weight: 600;
+        }
+        
+        .cd-icon {
+            position: absolute;
+            left: 13rem;
+            top: 1rem;
+        }
+        
+        .cd-badge {
+            left: 0rem;
+            top: 0.7rem;
+            border-top-right-radius: 0.3rem;
+            border-bottom-right-radius: 0.3rem;
+            padding: 0.3rem;
+            margin: 1rem 1rem 1rem 0;
+        }
+        
+        .cd-badge-pos {
+            position: absolute;
         }
