@@ -122,15 +122,54 @@
         }
         /* buttons */
         
+        .button div {
+            margin: 2rem 2rem 2rem 5rem;
+            font-size: medium;
+        }
+        
         .btn {
-            width: 10%;
-            height: 30%;
+            width: 130px;
+            height: 25px;
             border: 0;
             padding: 0.5rem;
             border-radius: 0.5rem;
             text-align: center;
         }
         
+        .btn-sm {
+            width: 65px;
+            height: 20px;
+            margin: 0;
+        }
+        
+        .btn-md {
+            width: 90px;
+            height: 20px;
+        }
+        
         .secondary-btn-border {
             border: 1px solid var(--primary-color);
+        }
+        /* card */
+        
+        .card div {
+            margin: 2rem 2rem 2rem 5rem;
+            font-size: medium;
+        }
+        
+        .cd {
+            width: 240px;
+            height: 450px;
+            background-color: var(--white-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            border-radius: 0.3rem;
+        }
+        
+        .cd-img {
+            width: 200px;
+            height: 200px;
+            margin: 20px;
         }
