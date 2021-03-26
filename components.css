@@ -91,6 +91,15 @@
             border: 1.7px solid var(--white-color);
         }
         
+        .cd-bdg {
+            left: 0rem;
+            top: 14rem;
+            border-top-right-radius: 0.3rem;
+            border-bottom-right-radius: 0.3rem;
+            padding: 0.3rem;
+            margin: 1rem 1rem 1rem 0;
+        }
+        
         .icon {
             margin: 0.5rem;
             width: 60px;
@@ -135,7 +144,7 @@
         }
         
         .btn {
-            width: 130px;
+            width: 180px;
             height: 25px;
             border: 0;
             margin: 1rem;
@@ -181,9 +190,10 @@
         }
         
         .cd-img {
-            width: 220px;
-            height: 200px;
-            margin: 20px;
+            width: 240px;
+            height: 275px;
+            margin: 0;
+            border-radius: 0.5rem;
         }
         
         .cd-rating {
@@ -206,13 +216,10 @@
         
         .cd-badge {
             left: 0rem;
-            top: 0.7rem;
+            top: 14rem;
             border-top-right-radius: 0.3rem;
             border-bottom-right-radius: 0.3rem;
             padding: 0.3rem;
             margin: 1rem 1rem 1rem 0;
-        }
-        
-        .cd-badge-pos {
             position: absolute;
         }

@@ -13,7 +13,7 @@
     --light-ash-color: #f7fdfa;
     --red-color: #fd5f65;
     --green-color: #45d371;
-    --yellow-color: #e7d03c;
+    --yellow-color: #f7d854;
     --tomato-color: rgb(255, 0, 0);
     --snap-yellow: #f7f400;
     --blue-color: #4375f0;
@@ -64,7 +64,7 @@
 }
 
 .orange-bg {
-    background-color: orange;
+    background-color: #ffa13c;
 }
 
 .grey-font {
