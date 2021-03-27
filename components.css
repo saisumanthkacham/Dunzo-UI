@@ -1,305 +1,348 @@
-        p {
-            font-size: medium;
-        }
-        
-        .wide-row {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            text-align: center;
-        }
-        
-        .row {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-            align-items: center;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .column {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: flex-start;
-            text-align: left;
-            margin: 0.5rem 0.5rem 0.5rem 1rem;
-            padding: 0;
-        }
-        
-        .center {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .margin {
-            margin: 0.5rem 0.5rem;
-        }
-        
-        .margin-zero {
-            margin: 0;
-            padding: 0;
-        }
-        
-        .link {
-            text-decoration: none;
-            color: var(--primary-color);
-        }
-        /* avatar */
-        
-        .avatar div {
-            margin: 2rem 2rem 2rem 8rem;
-            font-size: medium;
-        }
-        
-        .img {
-            margin: 0.5rem;
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-            text-align: center;
-        }
-        
-        .img-sm {
-            width: 45px;
-            height: 45px;
-        }
-        
-        .img-md {
-            width: 60px;
-            height: 60px;
-        }
-        
-        .img-lg {
-            width: 80px;
-            height: 80px;
-        }
-        /* alert */
-        
-        .alert-item {
-            width: 40%;
-            height: 30%;
-            border: 0;
-            padding: 1rem;
-            border-radius: 0.5rem;
-        }
-        
-        .alert div {
-            margin: 2rem 2rem 2rem 5rem;
-            font-size: medium;
-        }
-        /* badges */
-        
-        .badge div {
-            margin: 2rem 4rem 2rem 4rem;
-            font-size: medium;
-        }
-        
-        .bdg-holder {
-            position: relative;
-            margin: 0;
-        }
-        
-        .bdg {
-            border-radius: 50%;
-            width: 0.8rem;
-            height: 0.8rem;
-            border: 1.7px solid var(--white-color);
-        }
-        
-        .cd-bdg {
-            left: 0rem;
-            top: 14rem;
-            border-top-right-radius: 0.3rem;
-            border-bottom-right-radius: 0.3rem;
-            padding: 0.3rem;
-            margin: 1rem 1rem 1rem 0;
-        }
-        
-        .icon-sm {
-            margin: 0.5rem;
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            text-align: center;
-            margin: 0.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .icon-lg {
-            margin: 0.5rem;
-            width: 90px;
-            height: 90px;
-            border-radius: 50%;
-            text-align: center;
-            margin: 0.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .icon {
-            margin: 0.5rem;
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            text-align: center;
-            margin: 0.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        .bdg-icon {
-            border-radius: 50%;
-            width: 1.3rem;
-            height: 1.3rem;
-            text-align: center;
-        }
-        
-        .bdg-bottom {
-            position: absolute;
-            top: 1.3rem;
-            left: -1rem;
-        }
-        
-        .bdg-top {
-            position: absolute;
-            top: -2.5rem;
-            left: -2.3rem;
-        }
-        
-        .bdg-div-holder {
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-        }
-        /* buttons */
-        
-        .button div {
-            margin: 2rem 2rem 2rem 5rem;
-            font-size: medium;
-        }
-        
-        .btn {
-            width: 180px;
-            height: 25px;
-            border: 0;
-            margin: 1rem;
-            padding: 0.5rem;
-            border-radius: 0.5rem;
-            text-align: center;
-        }
-        
-        .btn-sm {
-            width: 65px;
-            height: 20px;
-            margin: 1rem;
-        }
-        
-        .btn-md {
-            width: 90px;
-            height: 20px;
-            margin: 1rem;
-        }
-        
-        .secondary-btn-border {
-            border: 1px solid var(--primary-color);
-        }
-        /* card */
-        
-        .card div {
-            font-size: medium;
-            margin: 2rem 2rem 2rem 7rem;
-        }
-        
-        .cd {
-            width: 240px;
-            height: 450px;
-            background-color: var(--white-color);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-radius: 0.5rem;
-            text-align: center;
-            position: relative;
-            box-shadow: 1px 5px 5px #ccc;
-        }
-        
-        .cd-text {
-            width: 240px;
-            height: 350px;
-            background-color: var(--white-color);
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            border-radius: 0.5rem;
-            text-align: center;
-            position: relative;
-            box-shadow: 1px 5px 5px #ccc;
-        }
-        
-        .cd-img {
-            width: 240px;
-            height: 275px;
-            margin: 0;
-            border-radius: 0.5rem;
-        }
-        
-        .cd-rating {
-            width: 45px;
-            height: 15px;
-            border: 0;
-            padding: 0.5rem;
-            margin: 1rem 2rem 1rem 2rem;
-            border-radius: 0.5rem;
-            text-align: center;
-            font-size: small;
-            font-weight: 600;
-        }
-        
-        .cd-icon {
-            position: absolute;
-            left: 13rem;
-            top: 1rem;
-        }
-        
-        .cd-badge {
-            left: 0rem;
-            top: 14rem;
-            border-top-right-radius: 0.3rem;
-            border-bottom-right-radius: 0.3rem;
-            padding: 0.3rem;
-            margin: 1rem 1rem 1rem 0;
-            position: absolute;
-        }
-        
-        .cd-horizontal {
-            width: 500px;
-            height: 270px;
-            background-color: var(--white-color);
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            border-radius: 0.5rem;
-            text-align: flex-start;
-            position: relative;
-            box-shadow: 1px 5px 5px #ccc;
-        }
-        
-        .cd-increment-btn {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            margin: 1rem 0.5rem 0.25rem 0.5rem;
-            align-items: center;
-            width: 200px;
-        }
+                    p {
+                        font-size: medium;
+                    }
+                    
+                    .wide-row {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        text-align: center;
+                    }
+                    
+                    .row {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    .column {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: flex-start;
+                        text-align: left;
+                        margin: 0.5rem 0.5rem 0.5rem 1rem;
+                        padding: 0;
+                    }
+                    
+                    .center {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .margin {
+                        margin: 0.5rem 0.5rem;
+                    }
+                    
+                    .margin-zero {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    .link {
+                        text-decoration: none;
+                        color: var(--primary-color);
+                    }
+                    /* avatar */
+                    
+                    .avatar div {
+                        margin: 2rem 2rem 2rem 8rem;
+                        font-size: medium;
+                    }
+                    
+                    .img {
+                        margin: 0.5rem;
+                        width: 45px;
+                        height: 45px;
+                        border-radius: 50%;
+                        text-align: center;
+                    }
+                    
+                    .img-sm {
+                        width: 45px;
+                        height: 45px;
+                    }
+                    
+                    .img-md {
+                        width: 60px;
+                        height: 60px;
+                    }
+                    
+                    .img-lg {
+                        width: 80px;
+                        height: 80px;
+                    }
+                    /* alert */
+                    
+                    .alert-item {
+                        width: 40%;
+                        height: 30%;
+                        border: 0;
+                        padding: 1rem;
+                        border-radius: 0.5rem;
+                    }
+                    
+                    .alert div {
+                        margin: 2rem 2rem 2rem 5rem;
+                        font-size: medium;
+                    }
+                    /* badges */
+                    
+                    .badge div {
+                        margin: 2rem 4rem 2rem 4rem;
+                        font-size: medium;
+                    }
+                    
+                    .bdg-holder {
+                        position: relative;
+                        margin: 0;
+                    }
+                    
+                    .bdg {
+                        border-radius: 50%;
+                        width: 0.8rem;
+                        height: 0.8rem;
+                        border: 1.7px solid var(--white-color);
+                    }
+                    
+                    .cd-bdg {
+                        left: 0rem;
+                        top: 14rem;
+                        border-top-right-radius: 0.3rem;
+                        border-bottom-right-radius: 0.3rem;
+                        padding: 0.3rem;
+                        margin: 1rem 1rem 1rem 0;
+                    }
+                    
+                    .icon-sm {
+                        margin: 0.5rem;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0.5rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .icon-lg {
+                        margin: 0.5rem;
+                        width: 90px;
+                        height: 90px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0.5rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .icon {
+                        margin: 0.5rem;
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        text-align: center;
+                        margin: 0.5rem;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    
+                    .bdg-icon {
+                        border-radius: 50%;
+                        width: 1.3rem;
+                        height: 1.3rem;
+                        text-align: center;
+                    }
+                    
+                    .bdg-bottom {
+                        position: absolute;
+                        top: 1.3rem;
+                        left: -1rem;
+                    }
+                    
+                    .bdg-top {
+                        position: absolute;
+                        top: -2.5rem;
+                        left: -2.3rem;
+                    }
+                    
+                    .bdg-div-holder {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                    }
+                    /* buttons */
+                    
+                    .button div {
+                        margin: 2rem 2rem 2rem 5rem;
+                        font-size: medium;
+                    }
+                    
+                    .btn {
+                        width: 180px;
+                        height: 25px;
+                        border: 0;
+                        margin: 1rem;
+                        padding: 0.5rem;
+                        border-radius: 0.5rem;
+                        text-align: center;
+                    }
+                    
+                    .btn-sm {
+                        width: 65px;
+                        height: 20px;
+                        margin: 1rem;
+                    }
+                    
+                    .btn-md {
+                        width: 90px;
+                        height: 20px;
+                        margin: 1rem;
+                    }
+                    
+                    .secondary-btn-border {
+                        border: 1px solid var(--primary-color);
+                    }
+                    /* card */
+                    
+                    .card div {
+                        font-size: medium;
+                        margin: 2rem 2rem 2rem 7rem;
+                    }
+                    
+                    .cd {
+                        width: 240px;
+                        height: 450px;
+                        background-color: var(--white-color);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 0.5rem;
+                        text-align: center;
+                        position: relative;
+                        box-shadow: 1px 5px 5px #ccc;
+                    }
+                    
+                    .cd-text {
+                        width: 240px;
+                        height: 350px;
+                        background-color: var(--white-color);
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 0.5rem;
+                        text-align: center;
+                        position: relative;
+                        box-shadow: 1px 5px 5px #ccc;
+                    }
+                    
+                    .cd-img {
+                        width: 240px;
+                        height: 275px;
+                        margin: 0;
+                        border-radius: 0.5rem;
+                    }
+                    
+                    .cd-rating {
+                        width: 45px;
+                        height: 15px;
+                        border: 0;
+                        padding: 0.5rem;
+                        margin: 1rem 2rem 1rem 2rem;
+                        border-radius: 0.5rem;
+                        text-align: center;
+                        font-size: small;
+                        font-weight: 600;
+                    }
+                    
+                    .cd-icon {
+                        position: absolute;
+                        left: 13rem;
+                        top: 1rem;
+                    }
+                    
+                    .cd-badge {
+                        left: 0rem;
+                        top: 14rem;
+                        border-top-right-radius: 0.3rem;
+                        border-bottom-right-radius: 0.3rem;
+                        padding: 0.3rem;
+                        margin: 1rem 1rem 1rem 0;
+                        position: absolute;
+                    }
+                    
+                    .cd-horizontal {
+                        width: 500px;
+                        height: 270px;
+                        background-color: var(--white-color);
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        border-radius: 0.5rem;
+                        text-align: flex-start;
+                        position: relative;
+                        box-shadow: 1px 5px 5px #ccc;
+                    }
+                    
+                    .cd-increment-btn {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        margin: 1rem 0.5rem 0.25rem 0.5rem;
+                        align-items: center;
+                        width: 200px;
+                    }
+                    /* input */
+                    
+                    .input div {
+                        font-size: medium;
+                        margin: 2rem 2rem 2rem 7rem;
+                    }
+                    
+                    .input-txt-box {
+                        width: 15rem;
+                        height: 2rem;
+                        border-radius: 0.5rem;
+                        border: none;
+                        background-color: var(--primary-color);
+                        padding: 0.5rem 1rem;
+                    }
+                    
+                    .input-txt-area {
+                        width: 15rem;
+                        height: 10rem;
+                        border-radius: 0.5rem;
+                        border: none;
+                        background-color: var(--primary-color);
+                        padding: 1rem 1rem;
+                    }
+                    /* modal */
+                    
+                    .mdl div {
+                        font-size: medium;
+                        margin: 2rem 2rem 2rem 7rem;
+                    }
+                    
+                    .modal {
+                        width: 20rem;
+                        height: 10rem;
+                        border-radius: 0.5rem;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-around;
+                        align-items: center;
+                        text-align: center;
+                        padding: 1rem 1rem;
+                        box-shadow: 1px 5px 5px #ccc;
+                    }
