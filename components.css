@@ -18,6 +18,16 @@
             padding: 0;
         }
         
+        .column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            text-align: left;
+            margin: 0.5rem 0.5rem 0.5rem 1rem;
+            padding: 0;
+        }
+        
         .center {
             display: flex;
             flex-direction: row;
@@ -25,9 +35,18 @@
             align-items: center;
         }
         
+        .margin {
+            margin: 0.5rem 0.5rem;
+        }
+        
         .margin-zero {
             margin: 0;
             padding: 0;
+        }
+        
+        .link {
+            text-decoration: none;
+            color: var(--primary-color);
         }
         /* avatar */
         
@@ -98,6 +117,30 @@
             border-bottom-right-radius: 0.3rem;
             padding: 0.3rem;
             margin: 1rem 1rem 1rem 0;
+        }
+        
+        .icon-sm {
+            margin: 0.5rem;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            margin: 0.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .icon-lg {
+            margin: 0.5rem;
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            text-align: center;
+            margin: 0.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         
         .icon {
@@ -189,6 +232,20 @@
             box-shadow: 1px 5px 5px #ccc;
         }
         
+        .cd-text {
+            width: 240px;
+            height: 350px;
+            background-color: var(--white-color);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 0.5rem;
+            text-align: center;
+            position: relative;
+            box-shadow: 1px 5px 5px #ccc;
+        }
+        
         .cd-img {
             width: 240px;
             height: 275px;
@@ -222,4 +279,27 @@
             padding: 0.3rem;
             margin: 1rem 1rem 1rem 0;
             position: absolute;
+        }
+        
+        .cd-horizontal {
+            width: 500px;
+            height: 270px;
+            background-color: var(--white-color);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 0.5rem;
+            text-align: flex-start;
+            position: relative;
+            box-shadow: 1px 5px 5px #ccc;
+        }
+        
+        .cd-increment-btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 1rem 0.5rem 0.25rem 0.5rem;
+            align-items: center;
+            width: 200px;
         }
