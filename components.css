@@ -46,7 +46,19 @@
                     
                     .link {
                         text-decoration: none;
-                        color: var(--primary-color);
+                        color: black;
+                    }
+                    /* hover-properties */
+                    
+                    .btn:hover {
+                        background-color: var(--primary-color)
+                    }
+                    
+                    .link:hover {
+                        background-color: #F0F8FF;
+                        height: 2rem;
+                        padding: 0.5rem 1rem 0.5rem 1rem;
+                        border-radius: 0.5rem;
                     }
                     /* avatar */
                     
@@ -55,25 +67,26 @@
                         font-size: medium;
                     }
                     
-                    .img {
+                    .ava {
                         margin: 0.5rem;
                         width: 45px;
                         height: 45px;
                         border-radius: 50%;
                         text-align: center;
+                        font-size: medium;
                     }
                     
-                    .img-sm {
+                    .ava-sm {
                         width: 45px;
                         height: 45px;
                     }
                     
-                    .img-md {
+                    .ava-md {
                         width: 60px;
                         height: 60px;
                     }
                     
-                    .img-lg {
+                    .ava-lg {
                         width: 80px;
                         height: 80px;
                     }
@@ -324,7 +337,7 @@
                         height: 10rem;
                         border-radius: 0.5rem;
                         border: none;
-                        background-color: var(--primary-color);
+                        background-color: var(--secondary-color);
                         padding: 1rem 1rem;
                     }
                     /* modal */
@@ -345,4 +358,50 @@
                         text-align: center;
                         padding: 1rem 1rem;
                         box-shadow: 1px 5px 5px #ccc;
+                    }
+                    /* navbar */
+                    
+                    .navb {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        align-items: center;
+                        width: 70%;
+                        margin: 2rem;
+                        font-size: medium;
+                        border-radius: 0.5rem;
+                    }
+                    
+                    .navb-li {
+                        display: flex;
+                        flex-direction: row;
+                        list-style: none;
+                    }
+                    
+                    .navb-li-item {
+                        margin: 0.5rem;
+                        font-weight: 700;
+                    }
+                    
+                    .navb-logo {
+                        width: 100px;
+                        height: 100px;
+                    }
+                    /* text */
+                    
+                    .text div {
+                        font-size: medium;
+                        margin: 2rem 2rem 2rem 7rem;
+                    }
+                    
+                    .text-sm {
+                        font-size: 1rem;
+                    }
+                    
+                    .text-md {
+                        font-size: 1.5rem;
+                    }
+                    
+                    .text-lg {
+                        font-size: 2rem;
                     }

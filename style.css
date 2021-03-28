@@ -11,18 +11,19 @@
     font-family: 'Lato', sans-serif;
     /* font-family: 'Open Sans', sans-serif; */
     /* font-family: 'Montserrat', sans-serif; */
+    f
 }
 
 :root {
-    --primary-color: #fd5f65;
-    --secondary-color: #4AAFF7;
+    --primary-color: #44b5f1;
+    --secondary-color: #0CF1B3;
+    --ter-color: #21253E;
     --white-color: #ffffff;
     --black-color: #181a1b;
     --light-ash-color: #f7fdfa;
     --red-color: #fd5f65;
     --green-color: #45d371;
     --yellow-color: #f7d854;
-    --tomato-color: rgb(255, 0, 0);
     --snap-yellow: #f7f400;
     --blue-color: #4375f0;
 }
@@ -63,8 +64,24 @@
     background-color: var(--primary-color);
 }
 
+.primary-font {
+    color: var(--primary-color);
+}
+
 .secondary-bg {
     background-color: var(--secondary-color);
+}
+
+.secondary-font {
+    color: var(--secondary-color);
+}
+
+.ter-bg {
+    background-color: var(--ter-color);
+}
+
+.ter-font {
+    color: var(--ter-color);
 }
 
 .green-font {
@@ -79,24 +96,32 @@
     color: grey;
 }
 
+.black-bg {
+    background-color: var(--black-color);
+}
+
 body {
     display: grid;
     grid-template-areas: "nav nav" "lside main";
-    grid-template-columns: 16% 1fr;
-    grid-template-rows: 2% 1fr;
+    grid-template-columns: 12rem 1fr;
+    grid-template-rows: 5rem 1fr;
     background-color: var(--light-ash-color);
 }
 
 body nav {
     grid-area: nav;
-    background-color: var(--black-color);
+    background-color: black;
+    position: fixed;
+    height: 5rem;
+    z-index: 5;
 }
 
 body lside {
     grid-area: lside;
-    background-color: var(--green-color);
+    background-color: #21D0BF;
     padding: 2rem;
     font-weight: 700;
+    opacity: 0.9;
 }
 
 body main {
@@ -104,9 +129,9 @@ body main {
 }
 
 body nav .logo {
-    width: 100px;
-    height: 100px;
-    padding: 0.5rem 0.5rem 0.5rem 2.5rem;
+    width: 150px;
+    height: 50px;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
 }
 
 .nav {
