@@ -102,7 +102,7 @@
 
 body {
     display: grid;
-    grid-template-areas: "nav nav" "lside main";
+    grid-template-areas: "nav nav" "aside main";
     grid-template-columns: 12rem 1fr;
     grid-template-rows: 5rem 1fr;
     background-color: var(--light-ash-color);
@@ -116,8 +116,8 @@ body nav {
     z-index: 5;
 }
 
-body lside {
-    grid-area: lside;
+body aside {
+    grid-area: aside;
     background-color: #21D0BF;
     padding: 2rem;
     font-weight: 700;
@@ -149,7 +149,7 @@ body nav .logo {
     margin: 1rem, auto;
 }
 
-.nav-link {
+.nav-item {
     margin: 1rem;
     color: white;
     padding: 0.5rem 2.5rem 0.5rem 0.5rem;
@@ -162,12 +162,12 @@ body nav .logo {
     color: var(--white-color);
 }
 
-.lside-ul {
+.aside-ul {
     list-style-type: none;
     position: fixed;
 }
 
-.lside-ul-items {
+.aside-ul-items {
     padding: 1rem;
 }
 
@@ -178,5 +178,5 @@ body nav .logo {
 }
 
 h2 {
-    margin: 3rem 0 0 3rem;
+    margin: 2rem 0 0 2rem;
 }
