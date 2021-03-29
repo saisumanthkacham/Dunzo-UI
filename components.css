@@ -37,7 +37,7 @@
                     
                     .center {
                         display: flex;
-                        flex-direction: row;
+                        flex-direction: column;
                         justify-content: center;
                         align-items: center;
                     }
@@ -373,10 +373,8 @@
                         flex-direction: row;
                         justify-content: space-around;
                         align-items: center;
-                        width: 70%;
-                        margin: 2rem;
+                        width: 100%;
                         font-size: medium;
-                        border-radius: 0.5rem;
                     }
                     
                     .navb-li {
@@ -393,6 +391,7 @@
                     .navb-logo {
                         width: 100px;
                         height: 100px;
+                        margin: 0;
                     }
                     /* text */
                     

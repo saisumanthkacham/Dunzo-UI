@@ -11,7 +11,6 @@
     font-family: 'Lato', sans-serif;
     /* font-family: 'Open Sans', sans-serif; */
     /* font-family: 'Montserrat', sans-serif; */
-    f
 }
 
 :root {
@@ -166,6 +165,16 @@ body nav .logo {
 }
 
 .nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    text-decoration: none;
+    color: #44b5f1;
+}
+
+.nav-link:visited {
     text-decoration: none;
     color: white;
 }

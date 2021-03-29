@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap');
+body {
+    height: 100vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.black-bg {
+    background-color: black;
+}
+
+.black-font {
+    color: black;
+}
+
+.white-font {
+    color: white;
+}
+
+.grey-bg {
+    background-color: #2B3E50;
+}
+
+.margin-zero {
+    margin: 0;
+}
+
+.big-font {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10rem auto;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: #44b5f1
+}
+
+.navb {
+    background-color: black;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navb-logo {
+    width: 150px;
+    height: 50px;
+    padding: 0.5rem 0.5rem 0.5rem 4rem;
+}
+
+.navb-li {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 1rem, auto;
+}
+
+.navb-link:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.navb-link:hover {
+    color: #44b5f1
+}
+
+.navb-li-item {
+    margin: 1rem;
+    font-size: medium;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.navb-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin: 0.5rem 4rem;
+}
