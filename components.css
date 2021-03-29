@@ -65,6 +65,14 @@
                         padding: 0.5rem 1rem 0.5rem 1rem;
                         border-radius: 0.5rem;
                     }
+                    
+                    .other-buttons-holder .btn:hover {
+                        background-color: #1c89c4;
+                    }
+                    
+                    .primary-btn-holder .primary-bg:hover {
+                        background-color: #1c89c4;
+                    }
                     /* avatar */
                     
                     .avatar div {

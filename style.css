@@ -25,6 +25,7 @@
     --yellow-color: #f7d854;
     --snap-yellow: #f7f400;
     --blue-color: #4375f0;
+    --orange-color: #ffa13c;
 }
 
 .white-bg {
@@ -88,7 +89,7 @@
 }
 
 .orange-bg {
-    background-color: #ffa13c;
+    background-color: var(--orange-color);
 }
 
 .grey-font {
