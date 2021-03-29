@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap');
-body {
-    height: 100vh;
-}
-
 * {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+}
+
+.body {
+    height: 70rem;
+}
+
+.page-align {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
 }
 
 .white-bg {
@@ -43,8 +59,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10rem auto;
+    margin: 7.5rem auto 3.5rem auto;
     color: white;
+    height: 18em;
 }
 
 .link {
