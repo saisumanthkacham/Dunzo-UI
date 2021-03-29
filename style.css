@@ -138,7 +138,6 @@ body nav .logo {
 
 .nav {
     display: flex;
-    flex-direction: row;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -146,7 +145,6 @@ body nav .logo {
 
 .nav-ul {
     display: flex;
-    flex-direction: row;
     list-style-type: none;
     margin: 1rem, auto;
 }
