@@ -76,7 +76,7 @@
                     }
                     /* avatar */
                     
-                    .avatar div {
+                    .avatar section {
                         margin: 2rem 2rem 2rem 8rem;
                         font-size: medium;
                     }
@@ -207,7 +207,7 @@
                     }
                     /* buttons */
                     
-                    .button div {
+                    .button section {
                         margin: 2rem 2rem 2rem 5rem;
                         font-size: medium;
                     }
@@ -240,7 +240,7 @@
                     }
                     /* card */
                     
-                    .card div {
+                    .card section {
                         font-size: medium;
                         margin: 2rem 2rem 2rem 7rem;
                     }
@@ -330,7 +330,7 @@
                     }
                     /* input */
                     
-                    .input div {
+                    .input section {
                         font-size: medium;
                         margin: 2rem 2rem 2rem 7rem;
                     }
@@ -354,7 +354,7 @@
                     }
                     /* modal */
                     
-                    .mdl div {
+                    .mdl section {
                         font-size: medium;
                         margin: 2rem 2rem 2rem 7rem;
                     }
