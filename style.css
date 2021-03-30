@@ -108,7 +108,7 @@ body {
     background-color: var(--light-ash-color);
 }
 
-body nav {
+body .nav {
     grid-area: nav;
     background-color: black;
     position: fixed;
