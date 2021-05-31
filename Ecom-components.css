@@ -292,6 +292,8 @@
                     } */
                     
                     .cd-img {
+                        position: absolute;
+                        top: 0rem;
                         width: 240px;
                         height: 275px;
                         margin: 0;
