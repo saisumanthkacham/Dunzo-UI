@@ -1,4 +1,4 @@
-                    /* colors */
+                
                     :root {
                         --primary-color: #44b5f1;
                         --secondary-color: #0CF1B3;
@@ -12,78 +12,6 @@
                         --snap-yellow: #f7f400;
                         --blue-color: #4375f0;
                         --orange-color: #ffa13c;
-                    }
-                    
-                    .white-bg {
-                        background-color: var(--white-color);
-                    }
-                    
-                    .red-bg {
-                        background-color: var(--red-color);
-                    }
-                    
-                    .white-font {
-                        color: var(--light-ash-color);
-                    }
-                    
-                    .green-bg {
-                        background-color: var(--green-color);
-                    }
-                    
-                    .yellow-bg {
-                        background-color: var(--yellow-color);
-                    }
-                    
-                    .tomato-bg {
-                        background-color: var(--tomato-color);
-                    }
-                    
-                    .snap-yellow-bg {
-                        background-color: var(--snap-yellow);
-                    }
-                    
-                    .blue-bg {
-                        background-color: var(--blue-color);
-                    }
-                    
-                    .primary-bg {
-                        background-color: var(--primary-color);
-                    }
-                    
-                    .primary-font {
-                        color: var(--primary-color);
-                    }
-                    
-                    .secondary-bg {
-                        background-color: var(--secondary-color);
-                    }
-                    
-                    .secondary-font {
-                        color: var(--secondary-color);
-                    }
-                    
-                    .ter-bg {
-                        background-color: var(--ter-color);
-                    }
-                    
-                    .ter-font {
-                        color: var(--ter-color);
-                    }
-                    
-                    .green-font {
-                        color: var(--green-color);
-                    }
-                    
-                    .orange-bg {
-                        background-color: var(--orange-color);
-                    }
-                    
-                    .grey-font {
-                        color: grey;
-                    }
-                    
-                    .black-bg {
-                        background-color: var(--black-color);
                     }
                     
                     
@@ -209,10 +137,10 @@
                     }
                     /* badges */
                     
-                    .badge div {
+                    /* .badge div {
                         margin: 2rem 4rem 2rem 4rem;
                         font-size: medium;
-                    }
+                    } */
                     
                     .bdg-holder {
                         position: relative;
@@ -290,10 +218,10 @@
                         left: -2.3rem;
                     }
                     
-                    .bdg-div-holder {
+                    /* .bdg-div-holder {
                         display: flex;
                         justify-content: flex-start;
-                    }
+                    } */
                     /* buttons */
                     
                     .button section {
@@ -336,7 +264,7 @@
                     
                     .cd {
                         width: 240px;
-                        height: 450px;
+                        height: 400px;
                         background-color: var(--white-color);
                         display: flex;
                         flex-direction: column;
@@ -507,4 +435,78 @@
                     
                     .frame {
                         margin: 1rem 5rem;
+                    }
+
+
+                    /* colors */
+                    .white-bg {
+                        background-color: var(--white-color);
+                    }
+                    
+                    .red-bg {
+                        background-color: var(--red-color);
+                    }
+                    
+                    .white-font {
+                        color: var(--light-ash-color);
+                    }
+                    
+                    .green-bg {
+                        background-color: var(--green-color);
+                    }
+                    
+                    .yellow-bg {
+                        background-color: var(--yellow-color);
+                    }
+                    
+                    .tomato-bg {
+                        background-color: var(--tomato-color);
+                    }
+                    
+                    .snap-yellow-bg {
+                        background-color: var(--snap-yellow);
+                    }
+                    
+                    .blue-bg {
+                        background-color: var(--blue-color);
+                    }
+                    
+                    .primary-bg {
+                        background-color: var(--primary-color);
+                    }
+                    
+                    .primary-font {
+                        color: var(--primary-color);
+                    }
+                    
+                    .secondary-bg {
+                        background-color: var(--secondary-color);
+                    }
+                    
+                    .secondary-font {
+                        color: var(--secondary-color);
+                    }
+                    
+                    .ter-bg {
+                        background-color: var(--ter-color);
+                    }
+                    
+                    .ter-font {
+                        color: var(--ter-color);
+                    }
+                    
+                    .green-font {
+                        color: var(--green-color);
+                    }
+                    
+                    .orange-bg {
+                        background-color: var(--orange-color);
+                    }
+                    
+                    .grey-font {
+                        color: grey;
+                    }
+                    
+                    .black-bg {
+                        background-color: var(--black-color);
                     }
