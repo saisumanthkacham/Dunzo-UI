@@ -274,6 +274,7 @@
                         text-align: center;
                         position: relative;
                         box-shadow: 1px 5px 5px #ccc;
+                        margin: 1rem 0.25rem; 
                     }
                     
                     /* .cd-text {
