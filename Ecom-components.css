@@ -274,7 +274,7 @@
                         text-align: center;
                         position: relative;
                         box-shadow: 1px 5px 5px #ccc;
-                        margin: 1rem 0.25rem; 
+                        margin: 3rem 0.25rem; 
                     }
                     
                     /* .cd-text {
@@ -313,7 +313,7 @@
                     .cd-icon {
                         position: absolute;
                         left: 13rem;
-                        top: 1rem;
+                        top: 0.5rem;
                     }
                     
                     .cd-badge {
