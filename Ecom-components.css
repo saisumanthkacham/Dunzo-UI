@@ -266,7 +266,7 @@
                     
                     .cd {
                         width: 240px;
-                        height: 440px;
+                        height: 435px;
                         background-color: var(--white-color);
                         display: flex;
                         flex-direction: column;
