@@ -363,7 +363,17 @@
                         position:absolute;
                         top:1rem;
                         right:1.5rem;
-                        opacity:0.5
+                        opacity:0.5;
+                        cursor:"pointer";
+                    }
+
+                    .cd-delete-icon:hover{
+                        position:absolute;
+                        top:1rem;
+                        right:1.5rem;
+                        opacity:0.5;
+                        cursor:"pointer";
+                        color: red;
                     }
 
                     .cd-name{
